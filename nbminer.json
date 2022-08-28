@@ -5,7 +5,7 @@
     "version": "42.2",
     "url": "https://github.com/NebuTech/NBMiner/releases/download/v42.2/NBMiner_42.2_Win.zip",
     "hash": "0750b549ac5858c439fc280279ee8084864dc0c15057344d562e6e05a62f53db",
-    "extract_dir": "NBMiner",
+    "extract_dir": "NBMiner_$version_Win",
     "bin": "nbminer.exe",
     "checkver": "github",
     "autoupdate": {
