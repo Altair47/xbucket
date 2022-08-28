@@ -7,6 +7,17 @@
     "hash": "0750b549ac5858c439fc280279ee8084864dc0c15057344d562e6e05a62f53db",
     "extract_dir": "NBMiner_Win",
     "bin": "nbminer.exe",
+    "persist": [
+        "start_ae.bat",
+        "start_beam.bat",
+        "start_config.bat",
+        "start_conflux.bat",
+        "start_ergo.bat",
+        "start_etc.bat",
+        "start_eth_overclock.bat",
+        "start_eth.bat",
+        "start_rvn.bat"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/NebuTech/NBMiner/releases/download/v$version/NBMiner_$version_Win.zip",
