@@ -2,9 +2,9 @@
     "homepage": "https://github.com/NebuTech/NBMiner",
     "description": "GPU Miner for ETH, RVN, BEAM, CFX, ZIL, AE, ERGO",
     "license": "",
-    "version": "42.2",
-    "url": "https://github.com/NebuTech/NBMiner/releases/download/v42.2/NBMiner_42.2_Win.zip",
-    "hash": "0750b549ac5858c439fc280279ee8084864dc0c15057344d562e6e05a62f53db",
+    "version": "42.3",
+    "url": "https://github.com/NebuTech/NBMiner/releases/download/v$version/NBMiner_$version_Win.zip",
+    "hash": "0be9bf64a09f788fff0fa93399fe3e591c281e11b52472099b25bfdf6c2b9acd",
     "extract_dir": "NBMiner_Win",
     "bin": "nbminer.exe",
     "persist": [
