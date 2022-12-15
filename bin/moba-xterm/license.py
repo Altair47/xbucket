@@ -1,6 +1,6 @@
 #/usr/bin/env python3
 '''
-Author: Double Sine
+Authors: Double Sine, Sotirios Roussis
 License: GPLv3
 '''
 import os, sys, zipfile
@@ -98,7 +98,7 @@ def GenerateLicense(Type : LicenseType, Count : int, UserName : str, MajorVersio
 
 def help():
     print('Usage:')
-    print('    keygen.py <UserName> <Version>')
+    print('    licence.py <UserName> <Version>')
     print()
     print('    <UserName>:      The Name licensed to')
     print('    <Version>:       The Version of MobaXterm')
@@ -120,9 +120,7 @@ if __name__ == '__main__':
                         MajorVersion,
                         MinorVersion,
                         Path=LicensePath)
-        print('[*] Success!')
-        print('[*] File generated: %s' % LicensePath)
-        print('[*] Please move or copy the newly-generated file to MobaXterm\'s installation path.')
+        print('[*] MobaXterm Professional Licence Generation Successful!')
         print()
 else:
     print('[*] ERROR: Please run this script directly')
